@@ -1,1 +1,44 @@
-<iframe src="https://www.google.com/maps/d/embed?mid=1UDT1CUDWWrcmKIsQFmjjK6JabC51EY0&ehbc=2E312F" width="640" height="480"></iframe>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Points d'eau - Pays de la Loire</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .carte-container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        /* On force la carte à s'adapter à l'écran */
+        iframe {
+            width: 80%;
+            max-width: 1000px;
+            height: 600px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Carte participative des points d'eau en Pays de la Loire</h1>
+    <p>Utilisez cette carte pour trouver ou visualiser les points d'eau de la région.</p>
+
+    <div class="carte-container">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1UDT1CUDWWrcmKiSQfMjjK6JAbC51EY0&ehbc=2E312F" width="640" height="480"></iframe>
+    </div>
+
+</body>
+</html>
